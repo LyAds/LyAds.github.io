@@ -1,4 +1,4 @@
-/* Styles généraux */
+/* STYLES GÉNÉRAUX */
 
 body {
 	font-family: 'PT Sans', 'sans-serif';
@@ -7,27 +7,6 @@ p {
 	letter-spacing: 2px;
 }
 
-
-/*
-hr {
-	margin-bottom: 5px;
-	margin-top: 5px
-	padding: 1px;
-	background:#EE9215;
-	border:0;
-}
-*/
-/* Titre principal */
-/*header h1 a {
-	
-	font-family: 'PT Sans', 'sans-serif';
-	letter-spacing: 4px;
-	text-transform: uppercase; 
-	color: white;
-	background-color: #E94A28;
-	padding: 15px 20px 15px 20px; sup, droit, inf, gauche 
-	border-radius: 2em 0 / 100% 0;
-}*/
 footer {
 	text-align: center;
 }
@@ -62,6 +41,7 @@ nav hr {
 
 	margin-bottom: 40px;
 }
+
 .bord_separation {
 	border-top: solid 1.2px;
 	border-bottom: solid 1.2px;
@@ -69,12 +49,15 @@ nav hr {
 	margin-left: -0.5em;
 }
 
-/* Styles de l'accueil */
 
+/* STYLES DE L'ACCUEIL */
+
+/* Message d'accueil */
 .mess_accueil {
 	font-style: italic;
 	text-align: center;
 }
+
 /* Enlève le soulignement de l'hypertexte */
 
 span a, .border, .ajout_panier, .descr_nom_pneu {
@@ -102,6 +85,7 @@ span a, .border, .ajout_panier, .descr_nom_pneu {
 	letter-spacing: 2px;
 	float: right;
 }
+
 /* Produits du moment */
 #prod {
 	text-align: center;
@@ -138,18 +122,21 @@ span a, .border, .ajout_panier, .descr_nom_pneu {
 	border-radius: 10px;
 	width: 240px;
 }
+
 /* Barre le prix des pneus */
 main a strike, main div strike {
 	color: red;
 }
+
 /* Met en gras le nom des pneus */
 
 main p strong {
 	font-size: 16pt;
 }
 
-/* Description differents pneus */
+/* DESCRIPTION DIFFERENTS PNEUS */
 
+/* Image pneu*/
 .box_description_left {
 	padding-top: 10px;
 	padding-left: 10px;
@@ -160,6 +147,7 @@ main p strong {
 	width: 240px;
 }
 
+/*Description détaillé du pneu*/
 .box_description_center {
 	display: inline-block;
 	vertical-align: top;
@@ -168,6 +156,7 @@ main p strong {
 	letter-spacing: 2px;
 }
 
+/* Prix + bouton ajout */
 .box_description_right {
 	display: inline-block;
 	vertical-align: top;
@@ -192,7 +181,7 @@ main p strong {
 	font-size: 10pt;
 }
 
-/* Ajouter au panier */
+/* Bouton "Ajouter au panier" */
 
 .ajout_panier {
 	padding: 9px;
@@ -202,7 +191,7 @@ main p strong {
 	color: white;
 }
 
-/* Recherche produit */
+/* RECHERCHE PRODUIT */
 
 .search_description_left {
 	padding-top: 10px;
@@ -237,7 +226,7 @@ main p strong {
 	font-size: 9pt;
 }
 
-/* Page Panier */
+/* PAGE PANIER */
 
 .prix_prod {
 	display: inline-block;
@@ -245,6 +234,7 @@ main p strong {
 	letter-spacing: 2px;
 	width: 240px;
 	height: 100px;
+	margin-left: 100px;
 	padding-top: 10px;
 	padding-left: 40px;
 	font-size: 9pt;
@@ -254,11 +244,13 @@ main p strong {
 	display: inline-block;
 	vertical-align: top;
 	text-align: right;
-	letter-spacing: 2px;
-	width: 240px;
+	width: 140px;
 	height: 100px;
 	margin-top: 10px;
 	padding-top: 10px;
 	padding-right: 10px;
-	font-size: 9pt;
+}
+
+h4 {
+	padding-right: 10px;
 }
