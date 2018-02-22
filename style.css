@@ -1,0 +1,230 @@
+/* Styles généraux */
+
+body {
+	font-family: 'PT Sans', 'sans-serif';
+}
+p {
+	letter-spacing: 2px;
+}
+/*
+hr {
+	margin-bottom: 5px;
+	margin-top: 5px
+	padding: 1px;
+	background:#EE9215;
+	border:0;
+}
+*/
+/* Titre principal */
+/*header h1 a {
+	
+	font-family: 'PT Sans', 'sans-serif';
+	letter-spacing: 4px;
+	text-transform: uppercase; 
+	color: white;
+	background-color: #E94A28;
+	padding: 15px 20px 15px 20px; sup, droit, inf, gauche 
+	border-radius: 2em 0 / 100% 0;
+}*/
+footer {
+	text-align: center;
+}
+
+nav div form {
+	display: inline;
+}
+
+nav {
+	margin-top: 20px;
+}
+
+span a {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-right: 2px groove;
+}
+
+footer hr {
+	margin-top: 40px;
+	padding: 1px;
+	background:#EE9215;
+	border:0;
+}
+nav hr {
+	padding: 1px;
+	margin-bottom: 40px;
+	background:#EE9215;
+	border:0;
+}
+main hr {
+	padding: 1px;
+	background:#EE9215;
+	border-style: dashed;
+	border:0;
+}
+
+/* Styles de l'accueil */
+
+.mess_accueil {
+	font-style: italic;
+	text-align: center;
+}
+/* Enlève le soulignement de l'hypertexte */
+
+span a, .border, .ajout_panier {
+	text-decoration: none;
+	color: black;
+}
+
+/* Styles du formulaire de recherche */
+
+#search-btn, #search {
+	border-radius: 5px;
+	padding-left: 5px;
+	font-family: 'PT Sans', 'sans-serif';
+}
+
+#search-btn {
+	background-color: #EE9215;
+	color: white;
+	border-color: #EE9215;
+}
+
+.recherche {
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: 2px;
+	float: right;
+}
+/* Produits du moment */
+#prod {
+	text-align: center;
+	font-family: 'PT Sans', 'sans-serif';
+	letter-spacing: 2px;
+}
+
+/* Promo */
+
+#promo {
+	color: red;
+	text-align: center;
+	font-family: 'PT Sans', 'sans-serif';
+	letter-spacing: 2px;
+	border: solid 1.2px;
+	color: white;
+	background-color: red;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* Bordure des différents pneus en promo */
+
+.border {
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+	display: inline-block;
+	border: solid 1.2px;
+	border-radius: 10px;
+	width: 240px;
+}
+/* Barre le prix des pneus */
+main a strike, main div strike {
+	color: red;
+}
+/* Met en gras le nom des pneus */
+
+main p strong {
+	font-size: 16pt;
+}
+
+/* Description differents pneus */
+
+.box_description_left {
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+	display: inline-block;
+	border-radius: 10px;
+	width: 240px;
+}
+
+.box_description_center {
+	display: inline-block;
+	vertical-align: top;
+	width: 330px;
+	padding-left: 200px;
+	letter-spacing: 2px;
+}
+
+.box_description_right {
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: 2px;
+	width: 240px;
+	padding-left: 200px;
+}
+
+.descr_nom_pneu {
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+.descr_nom_categ {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 12pt;
+	color: #EE9215;
+}
+
+.descr_categ {
+	font-size: 10pt;
+}
+
+/* Ajout panier */
+
+.ajout_panier {
+	padding: 9px;
+	border: solid 1px;
+	border-radius: 13px;
+	background-color: #EE9215;
+	color: white;
+}
+
+/* Recherche produit */
+
+.search_description_left {
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-bottom: 8px;
+	margin-left: 8px;
+	display: inline-block;
+	border-radius: 10px;
+	width: 240px;
+	height: 100px;
+}
+
+.search_description_center {
+	display: inline-block;
+	vertical-align: top;
+	width: 330px;
+	height: 100px;
+	padding-top: 10px;
+	padding-left: 200px;
+	letter-spacing: 2px;
+	font-size: 14pt;
+}
+
+.search_description_right {
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: 2px;
+	width: 240px;
+	height: 100px;
+	padding-top: 10px;
+	padding-left: 200px;
+	font-size: 9pt;
+}
