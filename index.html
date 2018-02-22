@@ -1,0 +1,73 @@
+<!-- <!DOCTYPE html> -->
+<html>
+  <head>
+    <title> Hypneutic </title>
+	<link rel="icon" type="image/ico" href="images/logo_pneu_favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	
+	<!-- Insertion de la police PT Sans !-->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+
+  	<!-- En-tête !-->
+	<header>
+		<img src="images/logo_pneu3.png" alt="pneu"  height="170" width="221.17" >
+		<!-- <hr/> !-->
+	</header>
+
+	<!-- Onglet de navigation !-->
+	<nav>
+		<span> <a href="index.html"> Accueil </a> </span>
+		<span> <a href="recherche.html"> Rechercher un produit </a> </span>
+		<span> <a href="panier.html"> Accédez au panier </a> </span>
+		<div class="recherche">
+
+			<form action="recherche.html" id="searchthis" method="get">
+				<input id="search" name="q" type="text" placeholder="Rechercher" />
+				<input id="search-btn" type="submit" value="Rechercher" />
+			</form>
+
+		</div>
+		
+	</nav>
+		<hr style="	padding: 1px;
+	background:#EE9215;
+	border:0;"/>	
+
+	<!-- Promos actuelles !-->
+	<main>
+		<p class="mess_accueil"> Bonjour et bienvenue sur ce site rempli de bonnes affaires ! </p> <hr/>
+		<h1 id="prod"> Les produits du moments </h1>
+		<h2 id="promo"> Jusqu'à - 40% sur les produits du site </h2>	
+		<a href="ventes_promo/goodyear.html" class="border"> 
+		<img src="images/goodyear.jpg" alt="goodyear" height="90" width="90" /> 
+		<p> <strong> Pneu Goodyear </strong> </p> <p> <strike> 99,90€</strike> 59,90€ </p>
+		</a>
+		<a href="ventes_promo/continental.html" class="border"> 
+		<img src="images/continental.jpg" alt="continental" height="90" width="90" /> 
+		<p> <strong> Pneu Continental </strong> </p> <p> <strike> 109,90€</strike> 69,90€ </p>
+		</a>
+		<a href="ventes_promo/michelin.html" class="border"> 
+		<img src="images/michelin.png" alt="michelin" height="90" width="90" /> 
+		<p> <strong> Pneu Michelin </strong> </p> <p> <strike> 79,90€</strike> 49,90€ </p>
+		</a>
+		<a  href="ventes_promo/pirelli.html" class="border"> 
+		<img src="images/pirelli.jpg" alt="pirelli" height="90" width="90" /> 
+		<p> <strong> Pneu Pirelli </strong> </p> <p> <strike> 69,90€</strike> 39,90€ </p> 
+		</a>
+		<a href="ventes_promo/nexen.html" class="border"> 
+		<img src="images/nexen.png" alt="nexen" height="90" width="90" /> 
+		<p> <strong> Pneu Nexen </strong> </p> <p> <strike> 59,90€</strike> 39,90€ </p>
+		</a>
+	</main>
+
+	<!-- Bas de page !-->
+	<footer>
+		<hr/>
+		<span> <a href="qui_sommes_nous.html"> Qui sommes-nous ? </a> </span>
+		<span> <a href="details.html"> Détails techniques </a> </span>
+	</footer>
+  </body>
+</html>
