@@ -87,7 +87,7 @@ span a, .border, .ajout_panier, .descr_nom_pneu {
 }
 
 /* Produits du moment */
-#prod {
+#prod, {
 	text-align: center;
 	font-family: 'PT Sans', 'sans-serif';
 	letter-spacing: 2px;
@@ -253,4 +253,41 @@ main p strong {
 
 h4 {
 	padding-right: 10px;
+}
+
+/* PAGE COORDONNEES LIVRAISON */
+
+/* Formulaire coordonnes */
+
+label {
+	width: 150px;
+	display: block;
+	font-size: 14pt;
+	letter-spacing: 2px;
+}
+
+#form_adresse {
+	border: solid grey 1.2px;
+	padding: 10px;
+	width: 230px;
+	border-radius: 5px;
+	margin-left: 500px;
+}
+#form_adresse input {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.button_sub {
+	border: solid 1px;
+	border-radius: 13px;
+	background-color: #EE9215;
+	color: white;
+	margin-left: 580px;
+	height: 0px;
+	width: 0px;
+}
+
+.adresse {
+	height: 40px;
 }
