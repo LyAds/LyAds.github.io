@@ -22,6 +22,7 @@ nav {
 span a {
 	padding-left: 15px;
 	padding-right: 15px;
+	letter-spacing: 1px;
 	border-right: 2px groove;
 }
 hr {
@@ -87,7 +88,7 @@ span a, .border, .ajout_panier, .descr_nom_pneu {
 }
 
 /* Produits du moment */
-#prod, {
+#prod {
 	text-align: center;
 	font-family: 'PT Sans', 'sans-serif';
 	letter-spacing: 2px;
@@ -258,22 +259,25 @@ h4 {
 /* PAGE COORDONNEES LIVRAISON */
 
 /* Formulaire coordonnes */
+.etat_commande {
+	margin-bottom: 20px;
+}
 
-label {
+#form_adresse label {
 	width: 150px;
 	display: block;
 	font-size: 14pt;
-	letter-spacing: 2px;
+	font-weight: bold;
 }
 
-#form_adresse {
+#form_adresse, #form_carte {
 	border: solid grey 1.2px;
 	padding: 10px;
-	width: 230px;
+	width: 400px;
 	border-radius: 5px;
-	margin-left: 500px;
 }
-#form_adresse input {
+#form_adresse input, #form_carte input {
+	width: 400px;
 	margin-top: 3px;
 	margin-bottom: 3px;
 }
@@ -283,11 +287,28 @@ label {
 	border-radius: 13px;
 	background-color: #EE9215;
 	color: white;
-	margin-left: 580px;
 	height: 0px;
 	width: 0px;
 }
-
+.button_sub input {
+	font-size: 14pt;
+}
 .adresse {
 	height: 40px;
+}
+
+/* PAGE PAIEMENT */
+
+/* Formulaire paiement */
+
+#form_carte label {
+	display: block;
+	font-weight: bold;
+	font-size: 14pt;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.active {
+	margin-left: 15px;
 }
