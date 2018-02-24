@@ -32,22 +32,23 @@
 	</nav>
 		<hr />	
 	<!-- Promos actuelles !-->
-	<main style="margin-left: 15px;">
+	<main>
 		<h2> Coordonées de livraison </h2>
-		<img class="etat_commande" src="../images/livraison.png" />
-		<form id="form_adresse">
-			<label> Nom </label> <input type="text" name="nom" /> 
-			<label> Prénom </label> <input type="text" name="prénom" /> 
-			<label> Adresse </label> <input class="adresse" type="text" name="adresse" />
-			<label> Code Postal </label> <input type="text" name="code_postal" /> 
-			<label> Ville </label> <input type="text" name="ville" /> 
-			<label> Pays </label> <input type="text" name="pays" /> 
-			<label> Téléphone </label> <input type="tel" name="tel" /> 
-		</form>
-		<div class="button_sub">
-			<form action="../paiement/paiement_pirelli.html" method="get">
-				<input type="submit" value="Envoyer" /> 
+		<div class="active">
+			<img class="etat_commande" src="../images/livraison.png" />
+			<form id="form_adresse">
+				<label> Nom </label> <input type="text" name="nom" /> 
+				<label> Prénom </label> <input type="text" name="prénom" /> 
+				<label> Adresse </label> <input class="adresse" type="text" name="adresse" />
+				<label> Code Postal </label> <input type="text" name="code_postal" /> 
+				<label> Ville </label> <input type="text" name="ville" /> 
+				<label> Pays </label> <input type="text" name="pays" /> 
+				<label> Téléphone </label> <input type="tel" name="tel" /> 
 			</form>
+			<div class="button_sub">
+				<form action="../paiement/paiement_pirelli.html" method="get">
+					<input type="submit" value="Envoyer" /> 
+				</form>
 		</div>
 	</main>
 

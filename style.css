@@ -6,7 +6,12 @@ body {
 p {
 	letter-spacing: 2px;
 }
-
+h2, h3+p, h3 {
+	margin-left: 15px;
+}
+h2 {
+	text-decoration: underline;
+}
 footer {
 	text-align: center;
 }
@@ -233,19 +238,25 @@ main p strong {
 	display: inline-block;
 	vertical-align: top;
 	letter-spacing: 2px;
-	width: 240px;
+	width: 140px;
 	height: 100px;
 	margin-left: 100px;
 	padding-top: 10px;
 	padding-left: 40px;
 	font-size: 9pt;
 }
+.quant {
+	letter-spacing: 2px;
+	margin-top: 20px;
+	padding-right: 90px;
+	font-size: 11pt;
+}
 
 .del_prod {
 	display: inline-block;
 	vertical-align: top;
 	text-align: right;
-	width: 140px;
+	width: 240px;
 	height: 100px;
 	margin-top: 10px;
 	padding-top: 10px;
@@ -311,4 +322,25 @@ h4 {
 
 .active {
 	margin-left: 15px;
+}
+
+/* PAGE QUI SOMMES-NOUS */
+
+/* Titre */
+.lequipe {
+	letter-spacing: 2px;
+	margin-left: 15px;
+}
+
+.image_reduit {
+	width: 90%;
+	height: 60%;
+}
+
+.box_description_equipe_right {
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: 2px;
+	width: 700px;
+	padding-left: 80px;
 }
